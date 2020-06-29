@@ -1,27 +1,85 @@
+* {
+  font-family: sans-serif;
+}
+
+
 .menu {
+    width: 110%;
+    background: #082E5C;
+    margin: -10px;
+    font-size: 15px;
+    text-align:center;
     width: 100%;
 }
 
 .menu li {
     display: inline-block;
-    width: calc(100% / 9);
-    outline: 1px solid red;
+    width: calc(120% / 10);
+    outline: 1px;
     text-transform: uppercase;
+    font-weight:bold;
+    margin-bottom:30px;
+    margin-top: 30px;
+    margin-left:1px;
+}
+
+.menu a{
+	color:#FFFF;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+.menu1{
+	color:#082E5C;
+}
+
+.TEXTOINDICAÇÃO{
+	color:#FFFF;
+	font-size: 8px;
+	font-weight: bold;
+	background: #082E5C;
+	font-weight:bold;
+	padding:5px 5px;
+	margin-bottom:90px;
+	margin-top: 90px;
+	margin-left:250px;
+	width: 12%;
+	text-align:center;
 }
 
 .servicos {
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
+    text-align:justify;
+    margin-bottom:90px;
+	margin-top: 10px;
+	margin-left:250px;
 }
 
 .servico {
     width: 20%;
     outline: 1px solid red;
+    padding:15px 15px;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align:justify;
+    margin-bottom:20px;
+	margin-top: 4px;
+	margin-left:4px;
+	font-weight: bold;
 }
 
 .servico img {
     /* display: block; */
     width: 60px;
+}
+.globalh1{
+  font-size: 5px;
+  color: #666666;
+  font-weight: bold;
+  text-align: left;
+  margin-left:3px;
 }
