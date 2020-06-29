@@ -82,7 +82,8 @@ body{
 
 .servico img {
     /* display: block; */
-    width: 60px;
+    width: 30px;
+    height: 30px;
 }
 .globalh1{
   font-size: 5px;
